@@ -1,0 +1,2 @@
+# ozzy
+# arquivo readme inicial
