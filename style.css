@@ -106,3 +106,7 @@ h2 {
 .card button:hover {
     background-color: green;
 }
+.card img {
+    height: 200px;
+    width: 190px;
+ }
