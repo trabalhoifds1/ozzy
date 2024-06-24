@@ -1,0 +1,77 @@
+    .header {
+        background-color: #1faf56aa;
+        height: 130px;
+        width: 100%;
+        margin-top: -24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Garamond;
+    }
+
+    .base{
+    margin-block: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    }
+    .titulo{
+        position: absolute;
+        margin-left: -30px;
+    }
+    
+    .alinhaform{
+        margin-left: 320px;
+        margin-top: 20px;
+        width: 220px;
+        position: absolute;
+    }
+    .alinhaform2{
+        margin-left: 800px;
+        margin-top: 20px;
+        width: 220px;
+        position: absolute;
+    }
+
+     .button1{
+            display: block;
+            margin-right: auto;
+            background-color: #1faf56aa;
+            width: 180px;
+            height: 50px;
+            border-radius: 20px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 200px;
+            margin-left: 800px;
+     }
+
+     .button2{
+        background-color: #1faf56aa;
+        width: 180px;
+        height: 50px;
+        display: block;
+        margin-right: auto;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 150px;
+        margin-left: 320px;
+     }
+     #menu{
+        list-style: none;
+        margin-top: 100px;
+        margin-left: -105px;
+        position: absolute;
+     }
+     #menu li{
+        display: inline;
+     }
+     #menu li a{
+        color: #000000;
+        padding: 15px;
+        display: inline-block;
+        text-decoration: none;
+        display: inline;
+
+     }
