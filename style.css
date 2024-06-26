@@ -1,6 +1,6 @@
 .body{
     background-color: rgb(254, 254, 254);
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .title {
     text-align: center;
@@ -10,7 +10,7 @@
 }
 .link{
     color:#000000;
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .header{
         background-color: #1f834584;
@@ -52,25 +52,25 @@
 
 .subtitle .subtitle2 {
     background-color: #1f8345aa; /* Cor de fundo para MODA FEMININA */
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 
 }
 
 .subtitle .subtitle3 {
     background-color: #1f8345aa; /* Cor de fundo para MODA MASCULINA */
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
 
 .subtitle .subtitle4 {
     background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
 .subtitle .subtitle5 {
     background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
 .container {
@@ -125,7 +125,7 @@
     border-radius: 10px;
     font-size: 14px;
     cursor: pointer;   
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 0px;
     margin-left: 880px;
     border: none;
@@ -140,10 +140,10 @@
     border-radius: 10px;
     font-size: 14px;
     cursor: pointer;
-    font-family: 'Garamond', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: -30px;
     margin-left: 730px;
-    border: none;
+border: none;
 }
 
 .button1:hover{
