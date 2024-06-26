@@ -91,9 +91,38 @@
 }
 
 .imagemdoproduto{
-    width: 160px;
+    width: 180px;
     height: auto;
     
+}
+
+.imagemdoproduto2{
+    width: 250px;
+    height: auto;
+    margin-left: -28px;
+}
+.imagemdoproduto3{
+    width: 168px;
+    height: auto;
+    margin-left: -20px;
+}
+.imagemdoproduto4{
+    width: 240px;
+    height: auto;
+    margin-left: -20px;
+    margin-top: -30px;
+}
+.descricao{
+    margin-top: -70px;
+}
+.imagemdoproduto5{
+    width: 185px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.descricao2{
+    margin-top: -10px;
 }
 
 .descrição {
