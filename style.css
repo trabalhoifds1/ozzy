@@ -1,5 +1,5 @@
     .header {
-        background-color: #1faf56aa;
+        background-color: #1f834584;
         height: 130px;
         width: 100%;
         margin-top: -24px;
@@ -55,7 +55,7 @@
         border-radius: 20px;
         font-size: 20px;
         cursor: pointer;
-        margin-top: 150px;
+        margin-top: 50px;
         margin-left: 320px;
      }
      #menu{
