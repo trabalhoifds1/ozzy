@@ -8,7 +8,10 @@
         align-items: center;
         font-family: Garamond;
     }
-
+    .subtitulos{
+        font-family: Garamond;
+        margin-left: -10px;
+    }
     .base{
     margin-block: 0;
     margin: 0;
@@ -17,7 +20,52 @@
     }
     .titulo{
         position: absolute;
-        margin-left: -30px;
+        margin-left: -15px;
+        font-size: 38px;
+        color: #1a3926;
+        margin-top: 52px;
+
+    }
+    .subtitle {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .subtitle button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 10px; /* Espaçamento entre os botões */
+    }
+    .subtitle button:hover {
+        background-color: #1f8345;
+    }
+    
+    .subtitle .subtitle2 {
+        background-color: #1f8345aa; /* Cor de fundo para MODA FEMININA */
+        font-family: 'Times New Roman', Times, serif;
+        color: #1a3926;
+    
+    }
+    
+    .subtitle .subtitle3 {
+        background-color: #1f8345aa; /* Cor de fundo para MODA MASCULINA */
+        font-family: 'Times New Roman', Times, serif;
+        color: #1a3926;
+    }
+    
+    .subtitle .subtitle4 {
+        background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+        font-family: 'Times New Roman', Times, serif;
+        color: #1a3926;
+    }
+    .subtitle .subtitle5 {
+        background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+        font-family: 'Times New Roman', Times, serif;
+        color: #1a3926;
     }
     
     .alinhaform{
@@ -32,14 +80,18 @@
         width: 220px;
         position: absolute;
     }
-
+    input {
+        border: 2px, solid, #aaa;
+        border-radius: 4px;
+        
+    }
      .button1{
             display: block;
             margin-right: auto;
             background-color: #1faf56aa;
             width: 180px;
             height: 50px;
-            border-radius: 20px;
+            border-radius: 18px;
             font-size: 20px;
             cursor: pointer;
             margin-top: 200px;
@@ -52,11 +104,17 @@
         height: 50px;
         display: block;
         margin-right: auto;
-        border-radius: 20px;
+        border-radius: 18px;
         font-size: 20px;
         cursor: pointer;
-        margin-top: 50px;
+        margin-top: 100px;
         margin-left: 320px;
+     }
+     .button1:hover{
+        background-color: #1f8345;
+     }
+     .button2:hover{
+        background-color: #1f8345;
      }
      #menu{
         list-style: none;
