@@ -71,14 +71,16 @@
     .alinhaform{
         margin-left: 320px;
         margin-top: 20px;
-        width: 220px;
+        width: 274px;
         position: absolute;
+        font-size: large;
     }
     .alinhaform2{
-        margin-left: 800px;
+        margin-left: 700px;
         margin-top: 20px;
-        width: 220px;
-        position: absolute;
+        width: 274px;
+        position: relative;
+        font-size: large;
     }
     input {
         border: 2px, solid, #aaa;
@@ -94,8 +96,7 @@
             border-radius: 18px;
             font-size: 20px;
             cursor: pointer;
-            margin-top: 200px;
-            margin-left: 800px;
+            margin-left: 25px;
      }
 
      .button2{
@@ -107,8 +108,7 @@
         border-radius: 18px;
         font-size: 20px;
         cursor: pointer;
-        margin-top: 100px;
-        margin-left: 320px;
+        margin-left: 25px;
      }
      .button1:hover{
         background-color: #1f8345;
@@ -133,3 +133,13 @@
         display: inline;
 
      }
+     .produto {
+        background-color: #fff;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 20px;
+        position: relative;
+    }
