@@ -76,26 +76,70 @@
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    max-width: 700px;
+    gap: 10px;
+    max-width: 1000px;
     margin: 0 auto;
+    margin-left: 350px;
 
 }
+
+.container2 {
+    
+    display: grid;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: -475px;
+    margin-left: 600px;
+
+}
+
+.container3 {
+    display: grid;
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: -438px;
+    margin-left: 400px;
+
+}
+
 .produto {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
     padding: 10px;
     
 }
 
+.informaçao {
+    padding: 10px 0;
+    text-align: left;
+    margin-top: -70px;
+    margin-left: 250px;
+}
+
+.informaçao1 {
+    padding: 10px 0;
+    text-align: left;
+    margin-top: -130px;
+    margin-left: 250px;
+}
+
+
+
 .imagemdoproduto{
-    width: 160px;
+    width: 70px;
     height: auto;
     
+}
+
+.descrição2 {
+    padding: 10px 0;
+    text-align: right;
 }
 
 .descrição {
@@ -107,7 +151,7 @@
     margin: 0 0 10px;
 }
 .descrição p {
-    margin: 0 0 10px;
+    margin: 0 0 0px;
     font-size: 0.9em;
 }
 
@@ -122,12 +166,12 @@
     background-color: #1faf56aa;
     width: 140px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 6px;
     font-size: 14px;
     cursor: pointer;   
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 0px;
-    margin-left: 880px;
+    margin-top: -90px;
+    margin-left: 350px;
     border: none;
 }
 
@@ -137,13 +181,13 @@
     height: 30px;
     display: block;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 6px;
     font-size: 14px;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: -30px;
-    margin-left: 730px;
-border: none;
+    margin-top: 10px;
+    margin-left: 350px;
+    border: none;
 }
 
 .button1:hover{
@@ -153,3 +197,15 @@ background-color: #1f8345;
 background-color: #1f8345;
 }
 
+.alinhaform{
+    margin-left: 75px;
+    margin-top: -105px;
+    width: 240px;
+    position: absolute;
+}
+.alinhaform2{
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 240px;
+    position: absolute;
+}
