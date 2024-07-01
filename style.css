@@ -17,6 +17,7 @@
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-family: 'Times New Roman', Times, serif;
     }
     .titulo{
         position: absolute;
@@ -29,6 +30,7 @@
     .subtitle {
         text-align: center;
         margin-top: 20px;
+        font-family: 'Times New Roman', Times, serif;
     }
     .subtitle button {
         padding: 10px 20px;
@@ -39,31 +41,32 @@
         border-radius: 5px;
         cursor: pointer;
         margin: 0 10px; /* Espaçamento entre os botões */
+        font-family: 'Times New Roman', Times, serif;
     }
     .subtitle button:hover {
         background-color: #1f8345;
     }
     
     .subtitle .subtitle2 {
-        background-color: #1f8345aa; /* Cor de fundo para MODA FEMININA */
+        background-color: #1faf56aa; /* Cor de fundo para MODA FEMININA */
         font-family: 'Times New Roman', Times, serif;
         color: #1a3926;
     
     }
     
     .subtitle .subtitle3 {
-        background-color: #1f8345aa; /* Cor de fundo para MODA MASCULINA */
+        background-color: #1faf56aa; /* Cor de fundo para MODA MASCULINA */
         font-family: 'Times New Roman', Times, serif;
         color: #1a3926;
     }
     
     .subtitle .subtitle4 {
-        background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+        background-color: #1faf56aa; /* Cor de fundo para MODA INFANTIL */
         font-family: 'Times New Roman', Times, serif;
         color: #1a3926;
     }
     .subtitle .subtitle5 {
-        background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+        background-color: #1faf56aa; /* Cor de fundo para MODA INFANTIL */
         font-family: 'Times New Roman', Times, serif;
         color: #1a3926;
     }
@@ -74,6 +77,7 @@
         width: 274px;
         position: absolute;
         font-size: large;
+        font-family: 'Times New Roman', Times, serif;
     }
     .alinhaform2{
         margin-left: 700px;
@@ -81,34 +85,41 @@
         width: 274px;
         position: relative;
         font-size: large;
+        font-family: 'Times New Roman', Times, serif;
     }
     input {
         border: 2px, solid, #aaa;
         border-radius: 4px;
-        
+        font-family: 'Times New Roman', Times, serif;
     }
      .button1{
             display: block;
             margin-right: auto;
             background-color: #1faf56aa;
-            width: 180px;
-            height: 50px;
-            border-radius: 18px;
-            font-size: 20px;
+            width: 160px;
+            height: 40px;
+            border-radius: 4px;
+            font-size: 21px;
             cursor: pointer;
-            margin-left: 25px;
-     }
+            margin-left: 36px;
+            border: none;
+            font-family: 'Times New Roman', Times, serif;
+     } 
 
      .button2{
         background-color: #1faf56aa;
-        width: 180px;
-        height: 50px;
+        width: 160px;
+        height: 40px;
         display: block;
         margin-right: auto;
-        border-radius: 18px;
-        font-size: 20px;
+        border-radius: 4px;
+        font-size: 21px;
         cursor: pointer;
-        margin-left: 25px;
+        margin-left: 36px;
+        margin-top: 16px;
+        outline: none;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
      }
      .button1:hover{
         background-color: #1f8345;
@@ -121,6 +132,7 @@
         margin-top: 100px;
         margin-left: -105px;
         position: absolute;
+        font-family: 'Times New Roman', Times, serif;
      }
      #menu li{
         display: inline;
@@ -131,7 +143,7 @@
         display: inline-block;
         text-decoration: none;
         display: inline;
-
+        font-family: 'Times New Roman', Times, serif;
      }
      .produto {
         background-color: #fff;
@@ -143,3 +155,14 @@
         padding: 20px;
         position: relative;
     }
+    .alinhar{
+       display: flex;
+       justify-content: baseline;
+       align-items: center;
+       margin-bottom: -4px;
+       margin-left: 26px;
+    }
+    .alinharr{
+        text-align: justify;
+    }
+    
