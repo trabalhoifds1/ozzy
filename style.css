@@ -42,7 +42,6 @@
     background-color: #007bff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     margin: 0 10px; /* Espaçamento entre os botões */
 }
 
@@ -122,7 +121,7 @@
     background-color: #1faf56aa;
     width: 140px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 14px;
     cursor: pointer;   
     font-family: 'Times New Roman', Times, serif;
@@ -137,7 +136,7 @@
     height: 30px;
     display: block;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 14px;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
@@ -149,7 +148,12 @@ border: none;
 .button1:hover{
 background-color: #1f8345;
 }
+
 .button2:hover{
 background-color: #1f8345;
+}
+
+a {
+    text-decoration: none;
 }
 
