@@ -45,10 +45,6 @@
     margin: 0 10px; /* Espaçamento entre os botões */
 }
 
-.subtitle button:hover {
-    background-color: #1f8345;
-}
-
 .subtitle .subtitle2 {
     background-color: #1f8345aa; /* Cor de fundo para MODA FEMININA */
     font-family: 'Times New Roman', Times, serif;
