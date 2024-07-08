@@ -18,10 +18,13 @@
 .produto button{
     align-items: self-end;
     color: #0c5a2a84;
-    background-color:#04b13eaa;
+    background-color:#1f8345aa;
     border: 0px;
     color: #007bff;
 
+}
+.produto button:hover {
+    background-color: #1f8345;
 }
 .descrição .carrinho{
     color: #1a3926;
@@ -41,7 +44,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 10px; /* Espaçamento entre os botões */
+    margin: 0 10px; 
 }
 
 .subtitle button:hover {
@@ -49,25 +52,25 @@
 }
 
 .subtitle .subtitle2 {
-    background-color: #1f8345aa; /* Cor de fundo para MODA FEMININA */
+    background-color: #1f8345aa;
     font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 
 }
 
 .subtitle .subtitle3 {
-    background-color: #1f8345aa; /* Cor de fundo para MODA MASCULINA */
+    background-color: #1f8345aa; 
     font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
 
 .subtitle .subtitle4 {
-    background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+    background-color: #1f8345aa;
     font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
 .subtitle .subtitle5 {
-    background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+    background-color: #1f8345aa; 
     font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
