@@ -166,3 +166,26 @@
         text-align: justify;
     }
     
+    nav.conta{
+        background-color: #fff;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 4px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    nav.conta:hover{
+        width: 280px;
+        height: 120px;
+    }
+    
+    .botao{
+        color: #202020;
+        font-size: 48px;
+    }
+ 
