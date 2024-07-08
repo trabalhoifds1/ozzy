@@ -94,7 +94,7 @@ h2 {
 }
 
 .card h3 {
-    color: #333;
+    color: #109703;
     margin-bottom: 15px;
 }
 
@@ -166,3 +166,7 @@ h2 {
     
 }
 
+
+.botão {
+    width: 60px;
+}
