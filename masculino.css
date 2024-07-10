@@ -8,10 +8,6 @@
     font-family: Garamond;
     font-size:larger
 }
-.link{
-    color:#000000;
-    font-family: 'Times New Roman', Times, serif;
-}
 .header{
         background-color: #1f834584;
         color: rgb(248, 243, 243);
@@ -22,13 +18,17 @@
 .produto button{
     align-items: self-end;
     color: #0c5a2a84;
-    background-color:#04b13eaa;
+    background-color:#1f8345aa;
     border: 0px;
     color: #007bff;
-
+}
+.produto button:hover{
+    background-color: #1f8345;
 }
 .descrição .carrinho{
     color: #1a3926;
+    align-items: center;
+    align-content: center;
 }
 .subtitle {
     text-align: center;
@@ -43,7 +43,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 10px; /* Espaçamento entre os botões */
+    margin: 0 10px;
 }
 
 .subtitle button:hover {
@@ -51,31 +51,31 @@
 }
 
 .subtitle .subtitle2 {
-    background-color: #1f8345aa; /* Cor de fundo para MODA FEMININA */
+    background-color: #1f8345aa;
     font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 
 }
 
 .subtitle .subtitle3 {
-    background-color: #1f8345aa; /* Cor de fundo para MODA MASCULINA */
+    background-color: #1f8345aa;
     font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
 
 .subtitle .subtitle4 {
-    background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+    background-color: #1f8345aa; 
     font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
 .subtitle .subtitle5 {
-    background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+    background-color: #1f8345aa;
     font-family: 'Times New Roman', Times, serif;
     color: #1a3926;
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     max-width: 1400px;
     margin: 0 auto;
@@ -92,8 +92,8 @@
 }
 
 .imagemdoproduto{
-    width: 160px;
-    height: auto;
+    width: auto;
+    height: 200px;
     
 }
 
