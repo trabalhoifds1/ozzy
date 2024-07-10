@@ -1,0 +1,191 @@
+    .header {
+        background-color: #1f834584;
+        height: 130px;
+        width: 100%;
+        margin-top: -24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Garamond;
+    }
+    .subtitulos{
+        font-family: Garamond;
+        margin-left: -10px;
+    }
+    .base{
+    margin-block: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .titulo{
+        position: absolute;
+        margin-left: -15px;
+        font-size: 38px;
+        color: #1a3926;
+        margin-top: 52px;
+
+    }
+    .subtitle {
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .subtitle button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 10px; /* Espaçamento entre os botões */
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .subtitle button:hover {
+        background-color: #1f8345;
+    }
+    
+    .subtitle .subtitle2 {
+        background-color: #1faf56aa; /* Cor de fundo para MODA FEMININA */
+        font-family: 'Times New Roman', Times, serif;
+        color: #1a3926;
+    
+    }
+    
+    .subtitle .subtitle3 {
+        background-color: #1faf56aa; /* Cor de fundo para MODA MASCULINA */
+        font-family: 'Times New Roman', Times, serif;
+        color: #1a3926;
+    }
+    
+    .subtitle .subtitle4 {
+        background-color: #1faf56aa; /* Cor de fundo para MODA INFANTIL */
+        font-family: 'Times New Roman', Times, serif;
+        color: #1a3926;
+    }
+    .subtitle .subtitle5 {
+        background-color: #1faf56aa; /* Cor de fundo para MODA INFANTIL */
+        font-family: 'Times New Roman', Times, serif;
+        color: #1a3926;
+    }
+    
+    .alinhaform{
+        margin-left: 320px;
+        margin-top: 20px;
+        width: 274px;
+        position: absolute;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .alinhaform2{
+        margin-left: 700px;
+        margin-top: 20px;
+        width: 274px;
+        position: relative;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input {
+        border: 2px, solid, #aaa;
+        border-radius: 4px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+     .button1{
+            display: block;
+            margin-right: auto;
+            background-color: #1faf56aa;
+            width: 160px;
+            height: 40px;
+            border-radius: 4px;
+            font-size: 21px;
+            cursor: pointer;
+            margin-left: 36px;
+            border: none;
+            font-family: 'Times New Roman', Times, serif;
+     } 
+
+     .button2{
+        background-color: #1faf56aa;
+        width: 160px;
+        height: 40px;
+        display: block;
+        margin-right: auto;
+        border-radius: 4px;
+        font-size: 21px;
+        cursor: pointer;
+        margin-left: 36px;
+        margin-top: 16px;
+        outline: none;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+     }
+     .button1:hover{
+        background-color: #1f8345;
+     }
+     .button2:hover{
+        background-color: #1f8345;
+     }
+     #menu{
+        list-style: none;
+        margin-top: 100px;
+        margin-left: -105px;
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+     }
+     #menu li{
+        display: inline;
+     }
+     #menu li a{
+        color: #000000;
+        padding: 15px;
+        display: inline-block;
+        text-decoration: none;
+        display: inline;
+        font-family: 'Times New Roman', Times, serif;
+     }
+     .produto {
+        background-color: #fff;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 20px;
+        position: relative;
+    }
+    .alinhar{
+       display: flex;
+       justify-content: baseline;
+       align-items: center;
+       margin-bottom: -4px;
+       margin-left: 26px;
+    }
+    .alinharr{
+        text-align: justify;
+    }
+    
+    nav.conta{
+        background-color: #fff;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 4px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    nav.conta:hover{
+        width: 280px;
+        height: 120px;
+    }
+    
+    .botao{
+        color: #202020;
+        font-size: 48px;
+    }
+ 
