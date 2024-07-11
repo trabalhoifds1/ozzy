@@ -1,0 +1,229 @@
+.body{
+    background-color: rgb(254, 254, 254);
+    font-family: 'Times New Roman', Times, serif;
+}
+.title {
+    text-align: center;
+    color: #1a3926;
+    font-family: Garamond;
+    font-size:larger
+}
+.link{
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+        background-color: #1f834584;
+        color: rgb(248, 243, 243);
+        padding: 5px 0px;
+        text-align: center;
+        min-height: 80px;
+}
+.produto button{
+    align-items: self-end;
+    color: #0c5a2a84;
+    background-color:#04b13eaa;
+    border: 0px;
+    color: #007bff;
+
+}
+.descrição .carrinho{
+    color: #1a3926;
+}
+.subtitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subtitle button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px; /* Espaçamento entre os botões */
+}
+
+.subtitle .subtitle2 {
+    background-color: #1f8345aa; /* Cor de fundo para MODA FEMININA */
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a3926;
+
+}
+
+.subtitle .subtitle3 {
+    background-color: #1f8345aa; /* Cor de fundo para MODA MASCULINA */
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a3926;
+}
+
+.subtitle .subtitle4 {
+    background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a3926;
+}
+.subtitle .subtitle5 {
+    background-color: #1f8345aa; /* Cor de fundo para MODA INFANTIL */
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a3926;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-left: 350px;
+
+}
+
+.container2 {
+    
+    display: grid;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: -475px;
+    margin-left: 600px;
+
+}
+
+.container3 {
+    display: grid;
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: -438px;
+    margin-left: 400px;
+
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 10px ;
+    
+}
+
+.informaçao {
+    padding: 10px 0;
+    text-align: left;
+    margin-top: -70px;
+    margin-left: 250px;
+}
+
+.informaçao1 {
+    padding: 10px 0;
+    text-align: left;
+    margin-top: -130px;
+    margin-left: 250px;
+}
+
+
+
+.imagemdoproduto{
+    width: 70px;
+    height: auto;
+    
+}
+
+.descrição2 {
+    padding: 10px 0;
+    text-align: right;
+}
+
+.descrição {
+    padding: 10px 0;
+}
+
+.descrição h2 {
+    font-size: 1em;
+    margin: 0 0 10px;
+}
+.descrição p {
+    margin: 0 0 0px;
+    font-size: 0.9em;
+}
+
+.preço {
+    font-size: 1em;
+    color: #04b13e;
+}
+
+.button1{
+    display: block;
+    margin-right: auto;
+    background-color: #1faf56aa;
+    width: 140px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;   
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -90px;
+    margin-left: 350px;
+    border: none;
+}
+
+.button2{
+    background-color: #1faf56aa;
+    width: 140px;
+    height: 30px;
+    display: block;
+    margin-right: auto;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 350px;
+    border: none;
+}
+
+.button3{
+    background-color: #1faf56aa;
+    width: 180px;
+    height: 40px;
+    display: block;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    border: none;
+}
+
+.button1:hover{
+background-color: #1f8345;
+}
+
+.button2:hover{
+background-color: #1f8345;
+}
+
+.button1:hover{
+    background-color: #1f8345;
+    
+    }
+
+.alinhaform{
+    margin-left: 75px;
+    margin-top: -105px;
+    width: 240px;
+    position: absolute;
+}
+.alinhaform2{
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 240px;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
