@@ -1,0 +1,41 @@
+.header {
+    background-color: #1f834584;
+    height: 130px;
+    width: 100%;
+    margin-top: -24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Garamond;
+}
+.subtitulos{
+    font-family: Garamond;
+    margin-left: -10px;
+}
+.base{
+margin-block: 0;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+font-family: 'Times New Roman', Times, serif;
+}
+.titulo{
+    position: absolute;
+    margin-left: -15px;
+    font-size: 38px;
+    color: #1a3926;
+    margin-top: 52px;
+
+}
+.button3{
+    background-color: #1faf56aa;
+    width: 180px;
+    height: 40px;
+    display: block;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    border: none;
+}
