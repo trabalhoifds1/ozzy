@@ -31,14 +31,15 @@ font-family: 'Times New Roman', Times, serif;
     background-color: #1faf56aa;
     width: 180px;
     height: 40px;
-    display: block;
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
+    margin-top: 180px;
     border: none;
     text-decoration: none;
+    position: absolute;
+    margin-left: -165px;
 }
 .image{
    padding: 80px;
